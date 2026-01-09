@@ -17,9 +17,9 @@ class PessoaViewModel extends ChangeNotifier {
     error = null;
     notifyListeners();
   }
+  
 
   bool get isError => error != null;
-
 
 
   void calculateIMC({required String massa, required String altura}) {
